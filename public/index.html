@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Image Search Abstraction Layer</title>
+</head>
+
+<body>
+  <h1>Image Search Abstraction Layer</h1>
+  <hr>
+  <p>Search the web for images or see recent searches</p>
+  <br>
+  <div>
+    <label>Query:</label>
+    <input id="query" type="text"></input>
+  </div>
+  <div>
+    <label>Page:</label>
+    <input id="page" type="number" value="1" min="1"></input>
+  </div>
+  <div>
+    <label id="size">Image Size:</label>
+    <select>
+      <option value="all">All</option>
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+    </select>
+  </div>
+  <br>
+  <button id="btnSearch">Search</button>
+  <button id="btnRecent">See Recent Searches</button>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
